@@ -1,0 +1,16 @@
+require:
+  - rubocop-rspec
+
+inherit_from:
+  - rubocop-all.yml
+  - rubocop-bundler.yml
+  - rubocop-gemspec.yml
+  - rubocop-layout.yml
+  - rubocop-lint.yml
+  - rubocop-metrics.yml
+  - rubocop-naming.yml
+  - rubocop-performance.yml
+  - rubocop-rails.yml
+  - rubocop-rspec.yml
+  - rubocop-security.yml
+  - rubocop-style.yml

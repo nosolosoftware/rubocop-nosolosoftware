@@ -1,0 +1,15 @@
+Rails:
+  Enabled: true
+
+# Enforces use of symbolic or numeric value to describe HTTP status.
+Rails/HttpStatus:
+  Enabled: true
+  EnforcedStyle: numeric
+
+# This cop checks for the use of the has_and_belongs_to_many macro
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+# This cop is used to identify usages of where.first and change them to use find_by instead.
+Rails/FindBy:
+  Enabled: false

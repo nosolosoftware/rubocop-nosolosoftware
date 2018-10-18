@@ -1,0 +1,10 @@
+AllCops:
+  # Cop names are not displayed in offense messages by default. Change behavior
+  # by overriding DisplayCopNames, or by giving the -D/--display-cop-names
+  # option.
+  DisplayCopNames: true
+
+  # Exclude files
+  Exclude:
+    - '**/db/schema.rb'
+

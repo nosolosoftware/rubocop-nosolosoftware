@@ -1,0 +1,23 @@
+# A calculated magnitude based on number of assignments, branches, and conditions
+Metrics/AbcSize:
+  Enabled: false
+
+# Avoid long blocks with many lines
+Metrics/BlockLength:
+  Enabled: false
+
+# Avoid classes longer than 100 lines of code
+Metrics/ClassLength:
+  Enabled: false
+
+# Limit lines to 100 characters
+Metrics/LineLength:
+  Max: 100
+
+# Avoid methods longer than 10 lines of code
+Metrics/MethodLength:
+  Enabled: false
+
+# Avoid modules longer than 100 lines of code
+Metrics/ModuleLength:
+  Enabled: false

@@ -1,0 +1,7 @@
+# Use spaces inside hash literal braces - or don't.
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+# Checks that the equals signs in parameter default assignments have or don't have surrounding space
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space

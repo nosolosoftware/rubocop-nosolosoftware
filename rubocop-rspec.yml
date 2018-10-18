@@ -1,0 +1,4 @@
+# Check that before/after(:all) isn't being used
+RSpec/BeforeAfterAll:
+  Enabled: false
+
