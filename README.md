@@ -1,6 +1,4 @@
-# ns-style-ruby
-
-![Gem](https://img.shields.io/gem/v/ns-style-ruby.svg)
+# rubocop-nosolosoftware ![Gem](https://img.shields.io/gem/v/rubocop-nosolosoftware.svg)
 
 Common Rubocop config for all our projects.
 
@@ -10,7 +8,7 @@ Common Rubocop config for all our projects.
 Add this line to your application's `Gemfile`:
 
 ```ruby
-gem 'ns-style-ruby', require: false
+gem 'rubocop-nosolosoftware', require: false
 ```
 
 And then execute:
@@ -22,7 +20,7 @@ $ bundle
 Or install it yourself as:
 
 ```bash
-$ gem install ns-style-ruby
+$ gem install rubocop-nosolosoftware
 ```
 
 
@@ -30,26 +28,48 @@ $ gem install ns-style-ruby
 
 Include the following in your `.rubocop.yml`:
 
+**For Ruby**
+
 ```yaml
 inherit_gem:
-  ns-style-ruby:
+  rubocop-nosolosoftware: rubocop-default.yml
+```
+
+**For Rails**
+
+```yaml
+inherit_gem:
+  rubocop-nosolosoftware:
     - rubocop-default.yml
+    - rubocop-rails.yml
+```
+
+**Optional Rake and Rspec rules**
+
+```yaml
+inherit_gem:
+  rubocop-nosolosoftware:
+    - rubocop-default.yml
+    - rubocop-rails.yml
+    - rubocop-rake.yml
+    - rubocop-rspec.yml
 ```
 
 
 ## Contributing
 
 Bug reports and merge requests are welcome on Github at
-https://github.com/nosolosoftware/ns-style-ruby. This project is intended to be a safe, welcoming
-space for collaboration, and contributors are expected to adhere to the
+https://github.com/nosolosoftware/rubocop-nosolosoftware using
+[GitHub Flow](https://guides.github.com/introduction/flow/index.html). This project is intended to
+be a safe, welcoming space for collaboration, and contributors are expected to adhere to the
 [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## Versioning
 
-**ns-style-ruby** uses [Semantic Versioning 2.0.0](http://semver.org)
+**rubocop-nosolosoftware** uses [Semantic Versioning 2.0.0](http://semver.org)
 
 
 ## License
 
-Copyright (c) 2018 NoSoloSoftware Network S.L. - Released under [MIT](LICENSE) license
+Copyright (c) 2019 NoSoloSoftware Network S.L. - Released under [MIT](LICENSE) license

@@ -1,15 +1,43 @@
+#
+## https://docs.rubocop.org/projects/rails/en/latest/cops_rails/
+#
+
+require: rubocop-rails
+
 Rails:
   Enabled: true
 
-# Enforces use of symbolic or numeric value to describe HTTP status.
+# https://docs.rubocop.org/projects/rails/en/latest/cops_rails/#railshttpstatus
 Rails/HttpStatus:
-  Enabled: true
-  EnforcedStyle: numeric
+  Enabled: false
 
-# This cop checks for the use of the has_and_belongs_to_many macro
+# https://docs.rubocop.org/projects/rails/en/latest/cops_rails/#railshasandbelongstomany
 Rails/HasAndBelongsToMany:
   Enabled: false
 
-# This cop is used to identify usages of where.first and change them to use find_by instead.
+# https://docs.rubocop.org/projects/rails/en/latest/cops_rails/#railsfindby
 Rails/FindBy:
   Enabled: false
+
+AllCops:
+  Exclude:
+    - "**/db/schema.rb"
+    - "**/bin/**/*"
+
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsblocklength
+Metrics/BlockLength:
+  Exclude:
+    - "**/spec/**/*.rb"
+    - "**/config/routes.rb"
+    - "**/config/environments/*.rb"
+
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsmodulelength
+Metrics/ModuleLength:
+  Exclude:
+    - "**/spec/**/*.rb"
+    - "**/config/routes.rb"
+
+# https://rubocop.readthedocs.io/en/latest/cops_style/#stylesymbolproc
+Style/SymbolProc:
+  Exclude:
+    - "**/config/**/*.rb"

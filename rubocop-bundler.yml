@@ -1,3 +1,7 @@
-# Gems in consecutive lines should be alphabetically sorted
+#
+## https://rubocop.readthedocs.io/en/latest/cops_bundler/
+#
+
+# https://rubocop.readthedocs.io/en/latest/cops_bundler/#bundlerorderedgems
 Bundler/OrderedGems:
   Enabled: false

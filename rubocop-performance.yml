@@ -1,0 +1,5 @@
+#
+## https://docs.rubocop.org/projects/performance/en/stable/
+#
+
+require: rubocop-performance

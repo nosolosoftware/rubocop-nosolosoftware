@@ -1,4 +1,4 @@
-module NsStyleRuby
+module RubocopNoSoloSoftware
   module VERSION
     MAJOR = 0
     MINOR = 1
@@ -14,5 +14,9 @@ module NsStyleRuby
 
   def self.gem_version
     Gem::Version.new VERSION::STRING
+  end
+
+  def self.required_ruby_version
+    Gem::Requirement.new('>= 2.5.0')
   end
 end

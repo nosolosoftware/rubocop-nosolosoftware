@@ -1,23 +1,19 @@
-# A calculated magnitude based on number of assignments, branches, and conditions
+#
+## https://rubocop.readthedocs.io/en/latest/cops_metrics/
+#
+
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsabcsize
 Metrics/AbcSize:
   Enabled: false
 
-# Avoid long blocks with many lines
-Metrics/BlockLength:
-  Enabled: false
-
-# Avoid classes longer than 100 lines of code
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsclasslength
 Metrics/ClassLength:
   Enabled: false
 
-# Limit lines to 100 characters
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricslinelength
 Metrics/LineLength:
   Max: 100
 
-# Avoid methods longer than 10 lines of code
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsmethodlength
 Metrics/MethodLength:
-  Enabled: false
-
-# Avoid modules longer than 100 lines of code
-Metrics/ModuleLength:
   Enabled: false

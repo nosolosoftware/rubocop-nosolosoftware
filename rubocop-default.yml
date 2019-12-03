@@ -1,6 +1,3 @@
-require:
-  - rubocop-rspec
-
 inherit_from:
   - rubocop-all.yml
   - rubocop-bundler.yml
@@ -10,7 +7,9 @@ inherit_from:
   - rubocop-metrics.yml
   - rubocop-naming.yml
   - rubocop-performance.yml
-  - rubocop-rails.yml
-  - rubocop-rspec.yml
   - rubocop-security.yml
   - rubocop-style.yml
+
+inherit_mode:
+  merge:
+    - Exclude

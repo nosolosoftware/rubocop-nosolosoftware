@@ -1,4 +1,15 @@
-# Check that before/after(:all) isn't being used
-RSpec/BeforeAfterAll:
-  Enabled: false
+#
+## https://docs.rubocop.org/projects/rspec/en/latest/
+#
 
+require: rubocop-rspec
+
+# https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockcomments
+Style/BlockComments:
+  Exclude:
+    - "**/spec/**/*.rb"
+
+# https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockdelimiters
+Style/BlockDelimiters:
+  Exclude:
+    - "**/spec/**/*.rb"
