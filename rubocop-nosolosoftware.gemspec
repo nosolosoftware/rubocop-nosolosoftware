@@ -32,7 +32,9 @@ Gem::Specification.new do |s|
   #
   ## GEM
   #
-  s.files        = Dir['lib/**/*', 'LICENSE', 'Rakefile', 'README.md', 'Gemfile*', '*.yml']
+  s.files = Dir[
+    'lib/**/*', 'LICENSE', 'Rakefile', 'README.md', 'Gemfile*', '*.yml', 'CHANGELOG.md'
+  ]
   s.require_path = 'lib'
 
   #
