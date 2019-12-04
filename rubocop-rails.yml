@@ -37,6 +37,11 @@ Metrics/ModuleLength:
     - "**/spec/**/*.rb"
     - "**/config/routes.rb"
 
+# https://www.rubocop.org/en/stable/cops_naming/#namingfilename
+Naming/FileName:
+  Exclude:
+    - "**/Envfile"
+
 # https://rubocop.readthedocs.io/en/latest/cops_style/#stylesymbolproc
 Style/SymbolProc:
   Exclude:
