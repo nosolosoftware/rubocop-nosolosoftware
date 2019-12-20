@@ -6,6 +6,10 @@
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
+# https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutlinelength
+Layout/LineLength:
+  Max: 100
+
 # https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutspacearoundequalsinparameterdefault
 Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
