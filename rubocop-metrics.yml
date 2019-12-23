@@ -10,10 +10,6 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Enabled: false
 
-# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricslinelength
-Metrics/LineLength:
-  Max: 100
-
 # https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsmethodlength
 Metrics/MethodLength:
   Enabled: false
