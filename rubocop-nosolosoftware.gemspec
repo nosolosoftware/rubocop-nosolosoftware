@@ -52,7 +52,7 @@ Gem::Specification.new do |s|
   #
   ## DEPENDENCIES
   #
-  s.add_dependency 'rubocop', '~> 0.77.0'
+  s.add_dependency 'rubocop', '~> 0.78.0'
   s.add_dependency 'rubocop-performance', '~> 1.5.1'
   s.add_dependency 'rubocop-rails', '~> 2.4.0'
   s.add_dependency 'rubocop-rake', '~> 0.5.0'
