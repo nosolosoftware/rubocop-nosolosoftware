@@ -37,3 +37,7 @@ Style/MutableConstant:
 # https://rubocop.readthedocs.io/en/latest/cops_style/#styleregexpliteral
 Style/RegexpLiteral:
   Enabled: false
+
+# https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockdelimiters
+Style/BlockDelimiters:
+  EnforcedStyle: braces_for_chaining
