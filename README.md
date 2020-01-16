@@ -72,4 +72,4 @@ be a safe, welcoming space for collaboration, and contributors are expected to a
 
 ## License
 
-Copyright (c) 2019 NoSoloSoftware Network S.L. - Released under [MIT](LICENSE) license
+Copyright (c) 2019-2020 NoSoloSoftware Network S.L. - Released under [MIT](LICENSE) license
