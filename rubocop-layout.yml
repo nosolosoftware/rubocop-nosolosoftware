@@ -10,6 +10,10 @@ Layout/FirstArrayElementIndentation:
 Layout/LineLength:
   Max: 100
 
+# https://rubocop.readthedocs.io/en/stable/cops_layout/#layoutmultilinemethodcallindentation
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
 # https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutspacearoundequalsinparameterdefault
 Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space

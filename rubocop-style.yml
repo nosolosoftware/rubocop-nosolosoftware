@@ -10,30 +10,10 @@ Style/AsciiComments:
 Style/BracesAroundHashParameters:
   EnforcedStyle: context_dependent
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styledatetime
-Style/DateTime:
-  Enabled: false
-
 # https://rubocop.readthedocs.io/en/latest/cops_style/#styledocumentation
 Style/Documentation:
   Enabled: false
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleemptymethod
-Style/EmptyMethod:
-  Enabled: false
-
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleformatstringtoken
-Style/FormatStringToken:
-  Enabled: false
-
 # https://rubocop.readthedocs.io/en/latest/cops_style/#stylefrozenstringliteralcomment
 Style/FrozenStringLiteralComment:
-  Enabled: false
-
-# https://rubocop.readthedocs.io/en/latest/cops_style/#stylemutableconstant
-Style/MutableConstant:
-  Enabled: false
-
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleregexpliteral
-Style/RegexpLiteral:
   Enabled: false

@@ -55,6 +55,17 @@ inherit_gem:
     - rubocop-rspec.yml
 ```
 
+### Inheritance of array attributes
+
+Don't forget to include the following in your configuration file:
+
+```yaml
+inherit_mode:
+  merge:
+    - Exclude
+    - Prefixes
+```
+
 
 ## Contributing
 

@@ -1,1 +1,6 @@
 require: rubocop-rake
+
+# https://github.com/rubocop-hq/rubocop-rake/blob/master/lib/rubocop/cop/rake/desc.rb
+Rake/Desc:
+  Exclude:
+    - "**/lib/tasks/auto_annotate_models.rake"

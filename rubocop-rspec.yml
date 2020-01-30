@@ -4,6 +4,39 @@
 
 require: rubocop-rspec
 
+# https://rubocop-rspec.readthedocs.io/en/latest/cops_rspec/#rspeccontextwording
+RSpec/ContextWording:
+  Prefixes:
+    - and
+
+# https://rubocop-rspec.readthedocs.io/en/latest/cops_rspec/#rspecdescribeclass
+RSpec/DescribeClass:
+  Exclude:
+    - "**/spec/requests/**/*.rb"
+    - "**/spec/system/**/*.rb"
+
+# https://rubocop-rspec.readthedocs.io/en/latest/cops_rspec/#rspecexamplelength
+RSpec/ExampleLength:
+  Exclude:
+    - "**/spec/requests/**/*.rb"
+    - "**/spec/system/**/*.rb"
+    - "**/spec/features/**/*.rb"
+
+# https://rubocop-rspec.readthedocs.io/en/latest/cops_rspec/#rspecimplicitsubject
+RSpec/ImplicitSubject:
+  EnforcedStyle: single_statement_only
+
+# https://rubocop-rspec.readthedocs.io/en/latest/cops_rspec/#rspecmultipleexpectations
+RSpec/MultipleExpectations:
+  Exclude:
+    - "**/spec/requests/**/*.rb"
+    - "**/spec/system/**/*.rb"
+    - "**/spec/features/**/*.rb"
+
+# https://rubocop-rspec.readthedocs.io/en/latest/cops_rspec/#rspecnestedgroups
+RSpec/NestedGroups:
+  Max: 5
+
 # https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockcomments
 Style/BlockComments:
   Exclude:
