@@ -17,3 +17,7 @@ Style/Documentation:
 # https://rubocop.readthedocs.io/en/latest/cops_style/#stylefrozenstringliteralcomment
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+# https://rubocop.readthedocs.io/en/latest/cops_style/#styleregexpliteral
+Style/RegexpLiteral:
+  AllowInnerSlashes: true
