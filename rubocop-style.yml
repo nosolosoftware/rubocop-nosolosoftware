@@ -6,10 +6,6 @@
 Style/AsciiComments:
   Enabled: false
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#stylebracesaroundhashparameters
-Style/BracesAroundHashParameters:
-  EnforcedStyle: context_dependent
-
 # https://rubocop.readthedocs.io/en/latest/cops_style/#styledatetime
 Style/DateTime:
   Enabled: false
