@@ -1,0 +1,3 @@
+---
+type: changed
+title: Move LineLength cop from Metrics to Layout and require rubocop 0.78.0.
