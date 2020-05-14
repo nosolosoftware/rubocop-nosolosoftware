@@ -2,6 +2,14 @@
 ## https://rubocop.readthedocs.io/en/latest/cops_layout/
 #
 
+# https://docs.rubocop.org/en/stable/cops_layout/#layoutemptylinesaroundattributeaccessor
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+# https://docs.rubocop.org/en/stable/cops_layout/#layoutspacearoundmethodcalloperator
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
 # https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutfirstarrayelementindentation
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
