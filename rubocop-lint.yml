@@ -1,3 +1,11 @@
 #
 ## https://rubocop.readthedocs.io/en/latest/cops_lint/
 #
+
+# https://docs.rubocop.org/en/stable/cops_lint/#lintraiseexception
+Lint/RaiseException:
+  Enabled: true
+
+# https://docs.rubocop.org/en/stable/cops_lint/#lintstructnewoverride
+Lint/StructNewOverride:
+  Enabled: true
