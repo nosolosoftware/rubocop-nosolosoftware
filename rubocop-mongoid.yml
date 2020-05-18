@@ -1,0 +1,7 @@
+#
+## Rubocop cops for Mongoid projects
+#
+
+# https://docs.rubocop.org/projects/rails/en/latest/cops_rails/#railsfindeach
+Rails/FindEach:
+  Enabled: false
