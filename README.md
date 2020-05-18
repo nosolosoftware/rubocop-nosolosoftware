@@ -68,6 +68,18 @@ inherit_gem:
 ```
 
 
+### Inheritance of array attributes
+
+Don't forget to include the following in your configuration file:
+
+```yaml
+inherit_mode:
+  merge:
+    - Exclude
+    - Prefixes
+```
+
+
 ## Contributing
 
 Bug reports and merge requests are welcome on Github at

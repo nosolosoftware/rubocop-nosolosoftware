@@ -9,33 +9,36 @@ Rails:
 
 # https://docs.rubocop.org/projects/rails/en/latest/cops_rails/#railshttpstatus
 Rails/HttpStatus:
-  Enabled: false
+  EnforcedStyle: numeric
 
-# https://docs.rubocop.org/projects/rails/en/latest/cops_rails/#railshasandbelongstomany
-Rails/HasAndBelongsToMany:
-  Enabled: false
-
-# https://docs.rubocop.org/projects/rails/en/latest/cops_rails/#railsfindby
-Rails/FindBy:
-  Enabled: false
+# https://rubocop-rails.readthedocs.io/en/stable/cops_rails/#railsrakeenvironment
+Rails/RakeEnvironment:
+  Exclude:
+    - "**/lib/tasks/auto_annotate_models.rake"
 
 AllCops:
   Exclude:
-    - "**/db/schema.rb"
     - "**/bin/**/*"
+    - "**/db/schema.rb"
+
+# https://rubocop.readthedocs.io/en/stable/cops_layout/#layouthashalignment
+Layout/HashAlignment:
+  Exclude:
+    - "**/lib/tasks/auto_annotate_models.rake"
 
 # https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsblocklength
 Metrics/BlockLength:
   Exclude:
-    - "**/spec/**/*.rb"
-    - "**/config/routes.rb"
     - "**/config/environments/*.rb"
+    - "**/config/routes.rb"
+    - "**/lib/tasks/auto_annotate_models.rake"
+    - "**/spec/**/*.rb"
 
 # https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsmodulelength
 Metrics/ModuleLength:
   Exclude:
-    - "**/spec/**/*.rb"
     - "**/config/routes.rb"
+    - "**/spec/**/*.rb"
 
 # https://www.rubocop.org/en/stable/cops_naming/#namingfilename
 Naming/FileName:
