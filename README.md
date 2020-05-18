@@ -26,16 +26,16 @@ $ gem install rubocop-nosolosoftware
 
 ## Usage
 
-Include the following in your `.rubocop.yml`:
+Include the following in your `.rubocop.yml`
 
-**For Ruby**
+**For Ruby**:
 
 ```yaml
 inherit_gem:
   rubocop-nosolosoftware: rubocop-default.yml
 ```
 
-**For Rails**
+**For Rails**:
 
 ```yaml
 inherit_gem:
@@ -44,7 +44,7 @@ inherit_gem:
     - rubocop-rails.yml
 ```
 
-**Optional Rake and Rspec rules**
+**Optional Rake and Rspec rules**:
 
 ```yaml
 inherit_gem:
@@ -53,6 +53,18 @@ inherit_gem:
     - rubocop-rails.yml
     - rubocop-rake.yml
     - rubocop-rspec.yml
+```
+
+**For Mongoid projects**:
+
+```yaml
+inherit_gem:
+  rubocop-nosolosoftware:
+    - rubocop-default.yml
+    - rubocop-rails.yml
+    - rubocop-rake.yml
+    - rubocop-rspec.yml
+    - rubocop-mongoid.yml
 ```
 
 
@@ -72,4 +84,4 @@ be a safe, welcoming space for collaboration, and contributors are expected to a
 
 ## License
 
-Copyright (c) 2019-2020 NoSoloSoftware Network S.L. - Released under [MIT](LICENSE) license
+Copyright (c) 2019-2020 NoSoloSoftware Network S.L. - Released under [MIT](LICENSE) license.
