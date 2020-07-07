@@ -10,25 +10,13 @@ Style/AsciiComments:
 Style/BlockDelimiters:
   EnforcedStyle: braces_for_chaining
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styledatetime
-Style/DateTime:
-  Enabled: false
-
 # https://rubocop.readthedocs.io/en/latest/cops_style/#styledocumentation
 Style/Documentation:
-  Enabled: false
-
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleemptymethod
-Style/EmptyMethod:
   Enabled: false
 
 # https://docs.rubocop.org/en/stable/cops_style/#styleexponentialnotation
 Style/ExponentialNotation:
   Enabled: true
-
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleformatstringtoken
-Style/FormatStringToken:
-  Enabled: false
 
 # https://rubocop.readthedocs.io/en/latest/cops_style/#stylefrozenstringliteralcomment
 Style/FrozenStringLiteralComment:
@@ -46,13 +34,9 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: true
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#stylemutableconstant
-Style/MutableConstant:
-  Enabled: false
-
 # https://rubocop.readthedocs.io/en/latest/cops_style/#styleregexpliteral
 Style/RegexpLiteral:
-  Enabled: false
+  AllowInnerSlashes: true
 
 # https://docs.rubocop.org/en/stable/cops_style/#styleslicingwithrange
 Style/SlicingWithRange:
