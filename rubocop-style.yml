@@ -10,34 +10,58 @@ Style/AsciiComments:
 Style/BlockDelimiters:
   EnforcedStyle: braces_for_chaining
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styledocumentation
+# https://docs.rubocop.org/rubocop/cops_style.html#styledocumentation
 Style/Documentation:
   Enabled: false
 
-# https://docs.rubocop.org/en/stable/cops_style/#styleexponentialnotation
+# https://docs.rubocop.org/rubocop/cops_style.html#styleexponentialnotation
 Style/ExponentialNotation:
   Enabled: true
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#stylefrozenstringliteralcomment
+# https://docs.rubocop.org/rubocop/cops_style.html#stylefrozenstringliteralcommetn
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-# https://docs.rubocop.org/en/stable/cops_style/#stylehasheachmethods
+# https://docs.rubocop.org/rubocop/cops_style.html#stylehasheachmethods
 Style/HashEachMethods:
   Enabled: true
 
-# https://docs.rubocop.org/en/stable/cops_style/#stylehashtransformkeys
+# https://docs.rubocop.org/rubocop/cops_style.html#stylehashtransformkeys
 Style/HashTransformKeys:
   Enabled: true
 
-# https://docs.rubocop.org/en/stable/cops_style/#stylehashtransformvalues
+# https://docs.rubocop.org/rubocop/cops_style.html#stylehashtransformvalues
 Style/HashTransformValues:
   Enabled: true
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleregexpliteral
+# https://docs.rubocop.org/rubocop/cops_style.html#styleregexpliteral
 Style/RegexpLiteral:
   AllowInnerSlashes: true
 
-# https://docs.rubocop.org/en/stable/cops_style/#styleslicingwithrange
+# https://docs.rubocop.org/rubocop/cops_style.html#styleslicingwithrange
 Style/SlicingWithRange:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleaccessorgrouping
+Style/AccessorGrouping:
+  Enabled: false
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylebisectedattraccessor
+Style/BisectedAttrAccessor:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantassignment
+Style/RedundantAssignment:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantfetchblock
+Style/RedundantFetchBlock:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantregexpcharacterclass
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantregexpescape
+Style/RedundantRegexpEscape:
   Enabled: true
