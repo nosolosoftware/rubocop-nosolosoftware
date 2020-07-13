@@ -2,10 +2,18 @@
 ## https://rubocop.readthedocs.io/en/latest/cops_lint/
 #
 
-# https://docs.rubocop.org/en/stable/cops_lint/#lintraiseexception
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintraiseexception
 Lint/RaiseException:
   Enabled: true
 
-# https://docs.rubocop.org/en/stable/cops_lint/#lintstructnewoverride
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintstructnewoverride
 Lint/StructNewOverride:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintdeprecatedopensslconstant
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintmixedregexpcapturetypes
+Lint/MixedRegexpCaptureTypes:
   Enabled: true
