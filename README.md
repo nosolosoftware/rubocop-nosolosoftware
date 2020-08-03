@@ -44,7 +44,7 @@ inherit_gem:
     - rubocop-rails.yml
 ```
 
-**Optional Rake and Rspec rules**:
+**Optional Rake, Faker and Rspec rules**:
 
 ```yaml
 inherit_gem:
@@ -53,6 +53,7 @@ inherit_gem:
     - rubocop-rails.yml
     - rubocop-rake.yml
     - rubocop-rspec.yml
+    - rubocop-faker.yml
 ```
 
 **For Mongoid projects**:
@@ -64,6 +65,7 @@ inherit_gem:
     - rubocop-rails.yml
     - rubocop-rake.yml
     - rubocop-rspec.yml
+    - rubocop-faker.yml
     - rubocop-mongoid.yml
 ```
 
