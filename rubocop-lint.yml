@@ -17,3 +17,7 @@ Lint/DeprecatedOpenSSLConstant:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintmixedregexpcapturetypes
 Lint/MixedRegexpCaptureTypes:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintduplicateelsifcondition
+Lint/DuplicateElsifCondition:
+  Enabled: true
