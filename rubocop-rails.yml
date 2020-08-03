@@ -49,3 +49,51 @@ Naming/FileName:
 Style/SymbolProc:
   Exclude:
     - "**/config/**/*.rb"
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsactiverecordcallbacksorder
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsfindbyid
+Rails/FindById:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsinquiry
+Rails/Inquiry:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsmailername
+Rails/MailerName:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsmatchroute
+Rails/MatchRoute:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsnegateinclude
+Rails/NegateInclude:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railspick
+Rails/Pluck:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railspluckinwhere
+Rails/PluckInWhere:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsrenderinline
+Rails/RenderInline:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsrenderplaintext
+Rails/RenderPlainText:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsshorti18n
+Rails/ShortI18n:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswhereexists
+Rails/WhereExists:
+  Enabled: true

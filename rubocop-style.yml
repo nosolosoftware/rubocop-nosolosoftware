@@ -65,3 +65,23 @@ Style/RedundantRegexpCharacterClass:
 # https://docs.rubocop.org/rubocop/cops_style.html#styleredundantregexpescape
 Style/RedundantRegexpEscape:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylearraycoercion
+Style/ArrayCoercion:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylecaselikeif
+Style/CaseLikeIf:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylehashaslastarrayitem
+Style/HashAsLastArrayItem:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylehashlikecase
+Style/HashLikeCase:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantfileextensioninrequire
+Style/RedundantFileExtensionInRequire:
+  Enabled: true

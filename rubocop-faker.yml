@@ -1,0 +1,5 @@
+#
+## https://www.rubydoc.info/gems/rubocop-faker/
+#
+
+require: rubocop-faker
