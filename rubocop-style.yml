@@ -85,3 +85,23 @@ Style/HashLikeCase:
 # https://docs.rubocop.org/rubocop/cops_style.html#styleredundantfileextensioninrequire
 Style/RedundantFileExtensionInRequire:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleexplicitblockargument
+Style/ExplicitBlockArgument:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleglobalstdstream
+Style/GlobalStdStream:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleoptionalbooleanparameter
+Style/OptionalBooleanParameter:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylesingleargumentdig
+Style/SingleArgumentDig:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylestringconcatenation
+Style/StringConcatenation:
+  Enabled: true
