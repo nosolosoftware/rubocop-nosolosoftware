@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.8.0 - 2020-08-07
+
+### Added
+- Added new rules introduced in the last version.
+    - Lint/BinaryOperatorWithIdenticalOperands (0.89)
+    - Lint/DuplicateRescueException (0.89)
+    - Lint/EmptyConditionalBody (0.89)
+    - Lint/FloatComparison (0.89)
+    - Lint/MissingSuper (0.89)
+    - Lint/OutOfRangeRegexpRef (0.89)
+    - Lint/SelfAssignment (0.89)
+    - Lint/TopLevelReturnWithArgument (0.89)
+    - Lint/UnreachableLoop (0.89)
+    - Style/ExplicitBlockArgument (0.89)
+    - Style/GlobalStdStream (0.89)
+    - Style/OptionalBooleanParameter (0.89)
+    - Style/SingleArgumentDig (0.89)
+    - Style/StringConcatenation (0.89)
+
 ## 0.7.0 - 2020-08-03
 
 ### Added
