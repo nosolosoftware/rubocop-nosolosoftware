@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.9.0 - 2020-09-18
+### Added
+- Added new rules introduced in the last version.
+    - Layout/BeginEndAlignment (0.91)
+    - Lint/ConstantDefinitionInBlock (0.91)
+    - Lint/DuplicateRequire (0.90)
+    - Lint/EmptyFile (0.90)
+    - Lint/IdentityComparison (0.91)
+    - Lint/TrailingCommaInAttributeDeclaration (0.90)
+    - Lint/UselessMethodDefinition (0.90)
+    - Lint/UselessTimes (0.91)
+    - Style/CombinableLoops (0.90)
+    - Style/KeywordParametersOrder (0.90)
+    - Style/RedundantSelfAssignment (0.90)
+    - Style/SoleNestedConditional (0.89)
+    - Performance/Sum (1.8)
+    - Rails/AfterCommitOverride (2.8)
+    - Rails/SquishedSQLHeredocs (2.8)
+    - Rails/WhereNot (2.8)
+
+### Changed
+- Updated all the extensions.
+
 ## 0.8.0 - 2020-08-07
 
 ### Added
@@ -77,6 +100,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2019-12-03
 
 First version of this gem.
-
-
-This changelog was generated using [ChangeFu](https://github.com/javierav/changefu).
