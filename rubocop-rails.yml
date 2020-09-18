@@ -97,3 +97,15 @@ Rails/ShortI18n:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswhereexists
 Rails/WhereExists:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsaftercommitoverride
+Rails/AfterCommitOverride:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railssquishedsqlheredocs
+Rails/SquishedSQLHeredocs:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswherenot
+Rails/WhereNot:
+  Enabled: true

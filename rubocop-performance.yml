@@ -35,3 +35,7 @@ Performance/Squeeze:
 # https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performancestringinclude
 Performance/StringInclude:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/1.8/cops_performance.html#performancesum
+Performance/Sum:
+  Enabled: true

@@ -105,3 +105,19 @@ Style/SingleArgumentDig:
 # https://docs.rubocop.org/rubocop/cops_style.html#stylestringconcatenation
 Style/StringConcatenation:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylecombinableloops
+Style/CombinableLoops:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylekeywordparametersorder
+Style/KeywordParametersOrder:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantselfassignment
+Style/RedundantSelfAssignment:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylesolenestedconditional
+Style/SoleNestedConditional:
+  Enabled: true
