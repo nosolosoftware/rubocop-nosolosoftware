@@ -2,14 +2,6 @@
 ## https://rubocop.readthedocs.io/en/latest/cops_layout/
 #
 
-# https://docs.rubocop.org/en/stable/cops_layout/#layoutemptylinesaroundattributeaccessor
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: true
-
-# https://docs.rubocop.org/en/stable/cops_layout/#layoutspacearoundmethodcalloperator
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
-
 # https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutfirstarrayelementindentation
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
@@ -29,7 +21,3 @@ Layout/SpaceAroundEqualsInParameterDefault:
 # https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutspaceinsidehashliteralbraces
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-
-# https://docs.rubocop.org/rubocop/cops_layout.html#layoutbeginendalignment
-Layout/BeginEndAlignment:
-  Enabled: true

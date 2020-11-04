@@ -38,16 +38,10 @@ RSpec/MultipleExpectations:
 RSpec/NestedGroups:
   Max: 5
 
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockcomments
-Style/BlockComments:
-  Exclude:
-    - "**/spec/**/*.rb"
-
-# https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockdelimiters
-Style/BlockDelimiters:
-  Exclude:
-    - "**/spec/**/*.rb"
-
-# https://rubocop.readthedocs.io/en/latest/cops_style/#rspecstubbedmock
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecstubbedmock
 RSpec/StubbedMock:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rails.html#railshttpstatus
+RSpec/Rails/HttpStatus:
+  EnforcedStyle: numeric
