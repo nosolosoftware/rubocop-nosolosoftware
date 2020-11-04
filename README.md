@@ -2,6 +2,7 @@
 
 Common Rubocop config for all our projects.
 
+Please if you are using `rubocop < 1.0` use the branch [0.x](https://github.com/nosolosoftware/rubocop-nosolosoftware/tree/0.x) and  `rubocop-nosolosoftware < 1.0`.
 
 ## Installation
 
