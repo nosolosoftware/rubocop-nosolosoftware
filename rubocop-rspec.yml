@@ -47,3 +47,7 @@ Style/BlockComments:
 Style/BlockDelimiters:
   Exclude:
     - "**/spec/**/*.rb"
+
+# https://rubocop.readthedocs.io/en/latest/cops_style/#rspecstubbedmock
+RSpec/StubbedMock:
+  Enabled: true

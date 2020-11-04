@@ -121,3 +121,7 @@ Style/RedundantSelfAssignment:
 # https://docs.rubocop.org/rubocop/cops_style.html#stylesolenestedconditional
 Style/SoleNestedConditional:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleclassequalitycomparison
+Style/ClassEqualityComparison:
+  Enabled: true
