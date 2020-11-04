@@ -13,3 +13,17 @@ Metrics/ClassLength:
 # https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsmethodlength
 Metrics/MethodLength:
   Enabled: false
+
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#metricsmodulelength
+Metrics/ModuleLength:
+  Exclude:
+    - "**/config/routes.rb"
+    - "**/spec/**/*.rb"
+
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/#blocklength
+Metrics/BlockLength:
+  Exclude:
+    - "**/spec/**/*.rb"
+    - "**/config/environments/*.rb"
+    - "**/config/routes.rb"
+    - "**/lib/tasks/auto_annotate_models.rake"

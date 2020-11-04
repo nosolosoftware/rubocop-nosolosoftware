@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.0 - 2020-11-04
+### Added
+- Added new rules introduced in the last version.
+    - Lint/DuplicateRegexpCharacterClassElement (1.1)
+    - Lint/EmptyBlock (1.1)
+    - Lint/ToEnumArguments (1.1)
+    - Lint/UnmodifiedReduceAccumulator (1.1)
+    - Style/ArgumentsForwarding (1.1)
+    - Style/DocumentDynamicEvalDefinition (1.1)
+    - Style/SwapValues (1.1)
+- Added new rules introduced in the last version of rubocop-rspec
+    - RSpec/Rails/HttpStatus (2.pre)
+
+### Changed
+- Removed shared enabled rules with rubocop 1.0
+- Bump dependencies (rubocop 1.0 and rubocop-rspec 2.pre)
+- Bump ruby version to use `...`
+- Reordered some rules following the convention of namespace/file.
+
+
 ## 0.10.0 - 2020-11-04
 ### Added
 - Added new rules introduced in the last version.

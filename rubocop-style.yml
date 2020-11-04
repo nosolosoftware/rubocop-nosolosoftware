@@ -9,119 +9,42 @@ Style/AsciiComments:
 # https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockdelimiters
 Style/BlockDelimiters:
   EnforcedStyle: braces_for_chaining
+  Exclude:
+    - "**/spec/**/*.rb"
 
 # https://docs.rubocop.org/rubocop/cops_style.html#styledocumentation
 Style/Documentation:
   Enabled: false
 
-# https://docs.rubocop.org/rubocop/cops_style.html#styleexponentialnotation
-Style/ExponentialNotation:
-  Enabled: true
-
 # https://docs.rubocop.org/rubocop/cops_style.html#stylefrozenstringliteralcommetn
 Style/FrozenStringLiteralComment:
   Enabled: false
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylehasheachmethods
-Style/HashEachMethods:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylehashtransformkeys
-Style/HashTransformKeys:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylehashtransformvalues
-Style/HashTransformValues:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleregexpliteral
-Style/RegexpLiteral:
-  AllowInnerSlashes: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleslicingwithrange
-Style/SlicingWithRange:
-  Enabled: true
 
 # https://docs.rubocop.org/rubocop/cops_style.html#styleaccessorgrouping
 Style/AccessorGrouping:
   Enabled: false
 
-# https://docs.rubocop.org/rubocop/cops_style.html#stylebisectedattraccessor
-Style/BisectedAttrAccessor:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantassignment
-Style/RedundantAssignment:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantfetchblock
-Style/RedundantFetchBlock:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantregexpcharacterclass
-Style/RedundantRegexpCharacterClass:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantregexpescape
-Style/RedundantRegexpEscape:
-  Enabled: true
-
 # https://docs.rubocop.org/rubocop/cops_style.html#stylearraycoercion
 Style/ArrayCoercion:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop/cops_style.html#stylecaselikeif
-Style/CaseLikeIf:
+# https://docs.rubocop.org/rubocop/cops_style.html#styleargumentsforwarding
+Style/ArgumentsForwarding:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop/cops_style.html#stylehashaslastarrayitem
-Style/HashAsLastArrayItem:
+# https://docs.rubocop.org/rubocop/cops_style.html#styledocumentdynamicevaldefinition
+Style/DocumentDynamicEvalDefinition:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop/cops_style.html#stylehashlikecase
-Style/HashLikeCase:
+# https://docs.rubocop.org/rubocop/cops_style.html#styleswapvalues
+Style/SwapValues:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantfileextensioninrequire
-Style/RedundantFileExtensionInRequire:
-  Enabled: true
+# https://rubocop.readthedocs.io/en/latest/cops_style/#styleblockcomments
+Style/BlockComments:
+  Exclude:
+    - "**/spec/**/*.rb"
 
-# https://docs.rubocop.org/rubocop/cops_style.html#styleexplicitblockargument
-Style/ExplicitBlockArgument:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleglobalstdstream
-Style/GlobalStdStream:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleoptionalbooleanparameter
-Style/OptionalBooleanParameter:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylesingleargumentdig
-Style/SingleArgumentDig:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylestringconcatenation
-Style/StringConcatenation:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylecombinableloops
-Style/CombinableLoops:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylekeywordparametersorder
-Style/KeywordParametersOrder:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantselfassignment
-Style/RedundantSelfAssignment:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#stylesolenestedconditional
-Style/SoleNestedConditional:
-  Enabled: true
-
-# https://docs.rubocop.org/rubocop/cops_style.html#styleclassequalitycomparison
-Style/ClassEqualityComparison:
-  Enabled: true
+# https://docs.rubocop.org/rubocop/cops_style.html#styleregexpliteral
+Style/RegexpLiteral:
+  AllowInnerSlashes: true
