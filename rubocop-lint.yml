@@ -27,3 +27,7 @@ Lint/HashCompareByIdentity:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintredundantsafenavigation
 Lint/RedundantSafeNavigation:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintnoreturninbeginendblocks
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: true
