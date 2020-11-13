@@ -56,3 +56,7 @@ Style/CollectionCompact:
 # https://docs.rubocop.org/rubocop/cops_style.html#stylenegatedifelsecondition
 Style/NegatedIfElseCondition:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylenillambda
+Style/NilLambda:
+  Enabled: true

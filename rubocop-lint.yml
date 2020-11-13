@@ -31,3 +31,11 @@ Lint/RedundantSafeNavigation:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintnoreturninbeginendblocks
 Lint/NoReturnInBeginEndBlocks:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintduplicatebranch
+Lint/DuplicateBranch:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintemptyclass
+Lint/EmptyClass:
+  Enabled: true
