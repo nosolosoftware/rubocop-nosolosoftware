@@ -4,38 +4,58 @@
 
 require: rubocop-performance
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performanceancestorsinclude
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceancestorsinclude
 Performance/AncestorsInclude:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performancebigdecimalwithnumericargument
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancebigdecimalwithnumericargument
 Performance/BigDecimalWithNumericArgument:
   Enabled: false
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performanceredundantsortblock
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceredundantsortblock
 Performance/RedundantSortBlock:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performanceredundantstringchars
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceredundantstringchars
 Performance/RedundantStringChars:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performancereversefirst
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancereversefirst
 Performance/ReverseFirst:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performancesortreverse
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancesortreverse
 Performance/SortReverse:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performancesqueeze
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancesqueeze
 Performance/Squeeze:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-performance/1.7/cops_performance.html#performancestringinclude
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancestringinclude
 Performance/StringInclude:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-performance/1.8/cops_performance.html#performancesum
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancesum
 Performance/Sum:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancearraysemiinfiniterangeslice
+Performance/ArraySemiInfiniteRangeSlice:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceblockgivenwithexplicitblock
+Performance/BlockGivenWithExplicitBlock:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancecollectionliteralinloop
+Performance/CollectionLiteralInLoop:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceconstantregexp
+Performance/ConstantRegexp:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancemethodobjectasblock
+Performance/MethodObjectAsBlock:
   Enabled: true

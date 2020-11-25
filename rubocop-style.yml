@@ -60,3 +60,7 @@ Style/NegatedIfElseCondition:
 # https://docs.rubocop.org/rubocop/cops_style.html#stylenillambda
 Style/NilLambda:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantargument
+Style/RedundantArgument:
+  Enabled: true
