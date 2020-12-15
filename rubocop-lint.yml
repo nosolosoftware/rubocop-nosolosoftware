@@ -39,3 +39,7 @@ Lint/DuplicateBranch:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintemptyclass
 Lint/EmptyClass:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintunexpectedblockarity
+Lint/UnexpectedBlockArity:
+  Enabled: true
