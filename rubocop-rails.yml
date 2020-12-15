@@ -109,3 +109,11 @@ Rails/SquishedSQLHeredocs:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswherenot
 Rails/WhereNot:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsattributedefaultblockvalue
+Rails/AttributeDefaultBlockValue:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswhereequals
+Rails/WhereEquals:
+  Enabled: true
