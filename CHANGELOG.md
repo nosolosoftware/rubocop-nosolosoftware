@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+The following rules have been added:
+
+## 1.5.0 - 2021-02-25
+
+### Added
+- Added new rules introduced in the last version.
+  -rubocop
+    - Gemspec/DateAssignment (1.10)
+    - Layout/SpaceBeforeBrackets (1.7)
+    - Lint/AmbiguousAssignment (1.7)
+    - Lint/DeprecatedConstants (1.8)
+    - Lint/LambdaWithoutLiteralBlock (1.8)
+    - Lint/NumberedParameterAssignment (1.9)
+    - Lint/OrAssignmentToConstant (1.9)
+    - Lint/RedundantDirGlobSort (1.8)
+    - Lint/SymbolConversion (1.9)
+    - Lint/TripleQuotes (1.9)
+    - Style/EndlessMethod (1.8)
+    - Style/HashConversion (1.10)
+    - Style/HashExcept (1.7)
+    - Style/IfWithBooleanLiteralBranches (1.9)
+
 ## 1.4.0 - 2020-12-15
 ### Added
 - Added new rules introduced in the last version.

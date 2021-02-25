@@ -43,3 +43,35 @@ Lint/EmptyClass:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintunexpectedblockarity
 Lint/UnexpectedBlockArity:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintambiguousassignment
+Lint/AmbiguousAssignment:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintdeprecatedconstants
+Lint/DeprecatedConstants:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintlambdawithoutliteralblock
+Lint/LambdaWithoutLiteralBlock:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintnumberedparameterassignment
+Lint/NumberedParameterAssignment:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintorassignmenttoconstant
+Lint/OrAssignmentToConstant:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintredundantdirglobsort
+Lint/RedundantDirGlobSort:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintsymbolconversion
+Lint/SymbolConversion:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#linttriplequotes
+Lint/TripleQuotes:
+  Enabled: true

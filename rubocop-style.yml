@@ -64,3 +64,19 @@ Style/NilLambda:
 # https://docs.rubocop.org/rubocop/cops_style.html#styleredundantargument
 Style/RedundantArgument:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleendlessmethod
+Style/EndlessMethod:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylehashconversion
+Style/HashConversion:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylehashexcept
+Style/HashExcept:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleifwithbooleanliteralbranches
+Style/IfWithBooleanLiteralBranches:
+  Enabled: true
