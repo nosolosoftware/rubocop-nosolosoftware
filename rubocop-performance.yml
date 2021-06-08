@@ -59,3 +59,15 @@ Performance/ConstantRegexp:
 # https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancemethodobjectasblock
 Performance/MethodObjectAsBlock:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancemapcompact
+Performance/MapCompact:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceredundantequalitycomparisonblock
+Performance/RedundantEqualityComparisonBlock:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceredundantsplitregexpargument
+Performance/RedundantSplitRegexpArgument:
+  Enabled: true

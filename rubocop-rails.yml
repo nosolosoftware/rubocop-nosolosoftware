@@ -117,3 +117,11 @@ Rails/AttributeDefaultBlockValue:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswhereequals
 Rails/WhereEquals:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsenvironmentvariableaccess
+Rails/EnvironmentVariableAccess:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstimezoneassignment
+Rails/TimeZoneAssignment:
+  Enabled: true

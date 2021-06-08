@@ -75,3 +75,7 @@ Lint/SymbolConversion:
 # https://docs.rubocop.org/rubocop/cops_lint.html#linttriplequotes
 Lint/TripleQuotes:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintemptyinpattern
+Lint/EmptyInPattern:
+  Enabled: true

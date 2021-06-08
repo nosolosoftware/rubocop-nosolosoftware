@@ -7,11 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.6.0 - 2021-06-08
+
+### Added
+- Added new rules introduced in the last version.
+  - rubocop
+    - Lint/EmptyInPattern (1.16)
+    - Style/InPatternThen (1.16)
+    - Style/MultilineInPatternThen (1.16)
+    - Style/QuotedSymbols (1.16)
+    - Style/StringChars (1.12)
+    - Performance/MapCompact (1.11)
+    - Performance/RedundantEqualityComparisonBlock (1.10)
+    - Performance/RedundantSplitRegexpArgument (1.10)
+  - rubocop-rails
+    - Rails/EnvironmentVariableAccess (2.10)
+    - Rails/TimeZoneAssignment (2.10)
+
+### Changed
+- Updated dependency rubocop-rails
+
 ## 1.5.0 - 2021-02-25
 
 ### Added
 - Added new rules introduced in the last version.
-  -rubocop
+  - rubocop
     - Gemspec/DateAssignment (1.10)
     - Layout/SpaceBeforeBrackets (1.7)
     - Lint/AmbiguousAssignment (1.7)
@@ -30,37 +50,37 @@ The following rules have been added:
 ## 1.4.0 - 2020-12-15
 ### Added
 - Added new rules introduced in the last version.
-    - rubocop
-      - Lint/UnexpectedBlockArity (1.5)
-    - rubocop-rails
-      - Rails/AttributeDefaultBlockValue (2.9)
-      - Rails/WhereEquals (2.9)
+  - rubocop
+    - Lint/UnexpectedBlockArity (1.5)
+  - rubocop-rails
+    - Rails/AttributeDefaultBlockValue (2.9)
+    - Rails/WhereEquals (2.9)
 
 ## 1.3.0 - 2020-11-25
 ### Added
 - Added new rules introduced in the last version.
-    - rubocop
-      - Style/RedundantArgument (1.4)
-    - rubocop-performance
-      - Performance/ArraySemiInfiniteRangeSlice (1.9)
-      - Performance/BlockGivenWithExplicitBlock (1.9)
-      - Performance/CollectionLiteralInLoop (1.8)
-      - Performance/ConstantRegexp (1.9)
-      - Performance/MethodObjectAsBlock (1.9)
+  - rubocop
+    - Style/RedundantArgument (1.4)
+  - rubocop-performance
+    - Performance/ArraySemiInfiniteRangeSlice (1.9)
+    - Performance/BlockGivenWithExplicitBlock (1.9)
+    - Performance/CollectionLiteralInLoop (1.8)
+    - Performance/ConstantRegexp (1.9)
+    - Performance/MethodObjectAsBlock (1.9)
 
 ## 1.2.0 - 2020-11-13
 ### Added
 - Added new rules introduced in the last version.
-    - Lint/DuplicateBranch (1.3)
-    - Lint/EmptyClass (1.3)
-    - Style/NilLambda (1.3)
+  - Lint/DuplicateBranch (1.3)
+  - Lint/EmptyClass (1.3)
+  - Style/NilLambda (1.3)
 
 ## 1.1.0 - 2020-11-13
 ### Added
 - Added new rules introduced in the last version.
-    - Lint/NoReturnInBeginEndBlocks (1.2)
-    - Style/CollectionCompact (1.2)
-    - Style/NegatedIfElseCondition (1.2)
+  - Lint/NoReturnInBeginEndBlocks (1.2)
+  - Style/CollectionCompact (1.2)
+  - Style/NegatedIfElseCondition (1.2)
 
 ### Changed
 - Changed Naming/VariableNumber to start using snake_case
@@ -68,15 +88,15 @@ The following rules have been added:
 ## 1.0.0 - 2020-11-04
 ### Added
 - Added new rules introduced in the last version.
-    - Lint/DuplicateRegexpCharacterClassElement (1.1)
-    - Lint/EmptyBlock (1.1)
-    - Lint/ToEnumArguments (1.1)
-    - Lint/UnmodifiedReduceAccumulator (1.1)
-    - Style/ArgumentsForwarding (1.1)
-    - Style/DocumentDynamicEvalDefinition (1.1)
-    - Style/SwapValues (1.1)
+  - Lint/DuplicateRegexpCharacterClassElement (1.1)
+  - Lint/EmptyBlock (1.1)
+  - Lint/ToEnumArguments (1.1)
+  - Lint/UnmodifiedReduceAccumulator (1.1)
+  - Style/ArgumentsForwarding (1.1)
+  - Style/DocumentDynamicEvalDefinition (1.1)
+  - Style/SwapValues (1.1)
 - Added new rules introduced in the last version of rubocop-rspec
-    - RSpec/Rails/HttpStatus (2.pre)
+  - RSpec/Rails/HttpStatus (2.pre)
 
 ### Changed
 - Removed shared enabled rules with rubocop 1.0
@@ -88,12 +108,12 @@ The following rules have been added:
 ## 0.10.0 - 2020-11-04
 ### Added
 - Added new rules introduced in the last version.
-    - Lint/HashCompareByIdentity (0.93)
-    - Lint/RedundantSafeNavigation (0.93)
-    - Style/ClassEqualityComparison (0.93)
+  - Lint/HashCompareByIdentity (0.93)
+  - Lint/RedundantSafeNavigation (0.93)
+  - Style/ClassEqualityComparison (0.93)
 
 - Added new rules introduced in the last version of rubocop-rspec
-    - RSpec/StubbedMock (1.44)
+  - RSpec/StubbedMock (1.44)
 
 ### Changed
 - Bump dependencies
@@ -101,22 +121,22 @@ The following rules have been added:
 ## 0.9.0 - 2020-09-18
 ### Added
 - Added new rules introduced in the last version.
-    - Layout/BeginEndAlignment (0.91)
-    - Lint/ConstantDefinitionInBlock (0.91)
-    - Lint/DuplicateRequire (0.90)
-    - Lint/EmptyFile (0.90)
-    - Lint/IdentityComparison (0.91)
-    - Lint/TrailingCommaInAttributeDeclaration (0.90)
-    - Lint/UselessMethodDefinition (0.90)
-    - Lint/UselessTimes (0.91)
-    - Style/CombinableLoops (0.90)
-    - Style/KeywordParametersOrder (0.90)
-    - Style/RedundantSelfAssignment (0.90)
-    - Style/SoleNestedConditional (0.89)
-    - Performance/Sum (1.8)
-    - Rails/AfterCommitOverride (2.8)
-    - Rails/SquishedSQLHeredocs (2.8)
-    - Rails/WhereNot (2.8)
+  - Layout/BeginEndAlignment (0.91)
+  - Lint/ConstantDefinitionInBlock (0.91)
+  - Lint/DuplicateRequire (0.90)
+  - Lint/EmptyFile (0.90)
+  - Lint/IdentityComparison (0.91)
+  - Lint/TrailingCommaInAttributeDeclaration (0.90)
+  - Lint/UselessMethodDefinition (0.90)
+  - Lint/UselessTimes (0.91)
+  - Style/CombinableLoops (0.90)
+  - Style/KeywordParametersOrder (0.90)
+  - Style/RedundantSelfAssignment (0.90)
+  - Style/SoleNestedConditional (0.89)
+  - Performance/Sum (1.8)
+  - Rails/AfterCommitOverride (2.8)
+  - Rails/SquishedSQLHeredocs (2.8)
+  - Rails/WhereNot (2.8)
 
 ### Changed
 - Updated all the extensions.
@@ -125,20 +145,20 @@ The following rules have been added:
 
 ### Added
 - Added new rules introduced in the last version.
-    - Lint/BinaryOperatorWithIdenticalOperands (0.89)
-    - Lint/DuplicateRescueException (0.89)
-    - Lint/EmptyConditionalBody (0.89)
-    - Lint/FloatComparison (0.89)
-    - Lint/MissingSuper (0.89)
-    - Lint/OutOfRangeRegexpRef (0.89)
-    - Lint/SelfAssignment (0.89)
-    - Lint/TopLevelReturnWithArgument (0.89)
-    - Lint/UnreachableLoop (0.89)
-    - Style/ExplicitBlockArgument (0.89)
-    - Style/GlobalStdStream (0.89)
-    - Style/OptionalBooleanParameter (0.89)
-    - Style/SingleArgumentDig (0.89)
-    - Style/StringConcatenation (0.89)
+  - Lint/BinaryOperatorWithIdenticalOperands (0.89)
+  - Lint/DuplicateRescueException (0.89)
+  - Lint/EmptyConditionalBody (0.89)
+  - Lint/FloatComparison (0.89)
+  - Lint/MissingSuper (0.89)
+  - Lint/OutOfRangeRegexpRef (0.89)
+  - Lint/SelfAssignment (0.89)
+  - Lint/TopLevelReturnWithArgument (0.89)
+  - Lint/UnreachableLoop (0.89)
+  - Style/ExplicitBlockArgument (0.89)
+  - Style/GlobalStdStream (0.89)
+  - Style/OptionalBooleanParameter (0.89)
+  - Style/SingleArgumentDig (0.89)
+  - Style/StringConcatenation (0.89)
 
 ## 0.7.0 - 2020-08-03
 
@@ -152,22 +172,22 @@ The following rules have been added:
 
 ### Added
 - Added new rules introduced in the last version.
-    - Lint/DeprecatedOpenSSLConstant (0.84)
-    - Lint/MixedRegexpCaptureTypes (0.85)
-    - Style/AccessorGrouping (0.87)
-    - Style/BisectedAttrAccessor (0.87)
-    - Style/RedundantAssignment (0.87)
-    - Style/RedundantFetchBlock (0.86)
-    - Style/RedundantRegexpCharacterClass (0.85)
-    - Style/RedundantRegexpEscape (0.85)
-    - Performance/AncestorsInclude (1.7)
-    - Performance/BigDecimalWithNumericArgument (1.7)
-    - Performance/RedundantSortBlock (1.7)
-    - Performance/RedundantStringChars (1.7)
-    - Performance/ReverseFirst (1.7)
-    - Performance/SortReverse (1.7)
-    - Performance/Squeeze (1.7)
-    - Performance/StringInclude (1.7)
+  - Lint/DeprecatedOpenSSLConstant (0.84)
+  - Lint/MixedRegexpCaptureTypes (0.85)
+  - Style/AccessorGrouping (0.87)
+  - Style/BisectedAttrAccessor (0.87)
+  - Style/RedundantAssignment (0.87)
+  - Style/RedundantFetchBlock (0.86)
+  - Style/RedundantRegexpCharacterClass (0.85)
+  - Style/RedundantRegexpEscape (0.85)
+  - Performance/AncestorsInclude (1.7)
+  - Performance/BigDecimalWithNumericArgument (1.7)
+  - Performance/RedundantSortBlock (1.7)
+  - Performance/RedundantStringChars (1.7)
+  - Performance/ReverseFirst (1.7)
+  - Performance/SortReverse (1.7)
+  - Performance/Squeeze (1.7)
+  - Performance/StringInclude (1.7)
 
 ## 0.5.0 - 2020-07-07
 
