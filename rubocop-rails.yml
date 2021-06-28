@@ -125,3 +125,23 @@ Rails/EnvironmentVariableAccess:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstimezoneassignment
 Rails/TimeZoneAssignment:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsaddcolumnindex
+Rails/AddColumnIndex:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsexpandeddaterange
+Rails/ExpandedDateRange:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsi18nlocaleassignment
+Rails/I18nLocaleAssignment:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsunusedignoredcolumns
+Rails/UnusedIgnoredColumns:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railseagerevaluationlogmessage
+Rails/EagerEvaluationLogMessage:
+  Enabled: true
