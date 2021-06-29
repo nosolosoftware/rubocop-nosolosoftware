@@ -45,3 +45,11 @@ RSpec/StubbedMock:
 # https://docs.rubocop.org/rubocop-rspec/cops_rails.html#railshttpstatus
 RSpec/Rails/HttpStatus:
   EnforcedStyle: numeric
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec/rails.html#rspecrailsavoidsetuphook
+RSpec/Rails/AvoidSetupHook:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecidenticalequalityassertion
+RSpec/IdenticalEqualityAssertion:
+  Enabled: true
