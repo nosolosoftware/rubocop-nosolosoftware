@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.8.0 - 2021-06-29
+- Added new rules introduced in the last version.
+  - rubocop
+    - Layout/LineEndStringConcatenationIndentation (1.18)
+    - Naming/InclusiveLanguage (1.18)
+
+### Changed
+- Updated dependency rubocop
+
 ## 1.7.0 - 2021-06-29
 - Added new rules introduced in the last version.
   - rubocop-rails
