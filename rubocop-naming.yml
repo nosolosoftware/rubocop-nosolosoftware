@@ -5,3 +5,7 @@
 # https://docs.rubocop.org/rubocop/cops_naming.html#namingvariablenumber
 Naming/VariableNumber:
   EnforcedStyle: snake_case
+
+# https://docs.rubocop.org/rubocop/cops_naming.html#naminginclusivelanguage
+Naming/InclusiveLanguage:
+  Enabled: false
