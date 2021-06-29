@@ -25,3 +25,8 @@ Layout/SpaceInsideHashLiteralBraces:
 # https://docs.rubocop.org/rubocop/cops_layout.html#layoutspacebeforebrackets
 Layout/SpaceBeforeBrackets:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_layout.html#layoutlineendstringconcatenationindentation
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+  EnforcedStyle: aligned
