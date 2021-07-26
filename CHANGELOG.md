@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.8.1 - 2021-07-26
+
+### Changed
+- `config/routes/` directory should have the same rules as `config/routes.rb`
+
 ## 1.8.0 - 2021-06-29
 - Added new rules introduced in the last version.
   - rubocop
