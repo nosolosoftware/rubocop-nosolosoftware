@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   ## INFORMATION
   #
   s.name = 'rubocop-nosolosoftware'
-  s.version = '1.8.1'
+  s.version = '1.9.0'
   s.summary = 'Default Rubocop configuration used in NoSoloSoftware developments'
   s.description = nil
   s.homepage = 'https://github.com/nosolosoftware/rubocop-nosolosoftware'

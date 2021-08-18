@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.9.0 - 2021-08-18
+- Added new rules introduced in the 1.19 version.
+  - rubocop
+    - Lint/AmbiguousRange
+    - Style/RedundantSelfAssignmentBranch
+
+### Changed
+- Updated dependency rubocop to 1.19
+
 ## 1.8.1 - 2021-07-26
 
 ### Changed
