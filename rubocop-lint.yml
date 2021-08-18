@@ -79,3 +79,7 @@ Lint/TripleQuotes:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintemptyinpattern
 Lint/EmptyInPattern:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintambiguousrange
+Lint/AmbiguousRange:
+  Enabled: false
