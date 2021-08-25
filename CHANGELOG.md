@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.10.0 - 2021-08-25
+### Changed
+- Layout/SpaceAroundEqualsInParameterDefault has been changed to the default value (aka space)
+
 ## 1.9.0 - 2021-08-18
 - Added new rules introduced in the 1.19 version.
   - rubocop
