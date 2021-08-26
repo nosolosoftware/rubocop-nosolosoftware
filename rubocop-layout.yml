@@ -14,10 +14,6 @@ Layout/LineLength:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
-# https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutspacearoundequalsinparameterdefault
-Layout/SpaceAroundEqualsInParameterDefault:
-  EnforcedStyle: no_space
-
 # https://rubocop.readthedocs.io/en/latest/cops_layout/#layoutspaceinsidehashliteralbraces
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
