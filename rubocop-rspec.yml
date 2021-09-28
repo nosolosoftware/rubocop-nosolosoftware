@@ -53,3 +53,11 @@ RSpec/Rails/AvoidSetupHook:
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecidenticalequalityassertion
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecexcessivedocstringspacing
+RSpec/ExcessiveDocstringSpacing:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecsubjectdeclaration
+RSpec/SubjectDeclaration:
+  Enabled: true
