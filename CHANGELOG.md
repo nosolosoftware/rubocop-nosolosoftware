@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.11.0 - 2021-09-28
+- Added new rules
+  - rubocop
+    - Lint/AmbiguousOperatorPrecedence (1.21)
+    - Lint/IncompatibleIoSelectWithFiberScheduler (1.21)
+  - rubocop-rails
+    - Rails/RedundantTravelBack (2.12)
+  - rubocop-rspec
+    - RSpec/ExcessiveDocstringSpacing (2.5)
+    - RSpec/SubjectDeclaration (2.5)
+
+### Changed
+- Updated dependency rubocop to 1.21
+- Updated dependency rubocop-rails to 2.12
+- Updated dependency rubocop-rspec to 2.5
+
 ## 1.10.0 - 2021-08-25
 ### Changed
 - Layout/SpaceAroundEqualsInParameterDefault has been changed to the default value (aka space)
