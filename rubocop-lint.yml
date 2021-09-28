@@ -83,3 +83,11 @@ Lint/EmptyInPattern:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintambiguousrange
 Lint/AmbiguousRange:
   Enabled: false
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintambiguousoperatorprecedence
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintincompatibleioselectwithfiberscheduler
+Lint/IncompatibleIoSelectWithFiberScheduler:
+  Enabled: true

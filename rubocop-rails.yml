@@ -145,3 +145,7 @@ Rails/UnusedIgnoredColumns:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railseagerevaluationlogmessage
 Rails/EagerEvaluationLogMessage:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsredundanttravelback
+Rails/RedundantTravelBack:
+  Enabled: true
