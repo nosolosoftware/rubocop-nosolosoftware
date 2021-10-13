@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.12.0 - 2021-10-13
+- Added new rules
+  - rubocop
+    - Lint/RequireRelativeSelfPath (1.22)
+    - Security/IoMethods (1.22)
+    - Style/NumberedParameters (1.22)
+    - Style/NumberedParametersLimit (1.22)
+    - Style/SelectByRegexp (1.22)
+
 ## 1.11.0 - 2021-09-28
 - Added new rules
   - rubocop
