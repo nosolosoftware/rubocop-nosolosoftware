@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
   #
   ## DEPENDENCIES
   #
-  s.add_dependency 'rubocop', '~> 1.21'
+  s.add_dependency 'rubocop', '~> 1.22'
   s.add_dependency 'rubocop-faker', '~> 1.1'
   s.add_dependency 'rubocop-performance', '~> 1.9'
   s.add_dependency 'rubocop-rails', '~> 2.12'

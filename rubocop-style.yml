@@ -100,3 +100,15 @@ Style/StringChars:
 # https://docs.rubocop.org/rubocop/cops_style.html#styleredundantselfassignmentbranch
 Style/RedundantSelfAssignmentBranch:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylenumberedparameters
+Style/NumberedParameters:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylenumberedparameterslimit
+Style/NumberedParametersLimit:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleselectbyregexp
+Style/SelectByRegexp:
+  Enabled: true
