@@ -91,3 +91,7 @@ Lint/AmbiguousOperatorPrecedence:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintincompatibleioselectwithfiberscheduler
 Lint/IncompatibleIoSelectWithFiberScheduler:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintrequirerelativeselfpath
+Lint/RequireRelativeSelfPath:
+  Enabled: true
