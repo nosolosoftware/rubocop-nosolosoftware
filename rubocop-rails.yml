@@ -149,3 +149,19 @@ Rails/EagerEvaluationLogMessage:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsredundanttravelback
 Rails/RedundantTravelBack:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsrootjoinchain
+Rails/RootJoinChain:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsdurationarithmetic
+Rails/DurationArithmetic:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsredundantpresencevalidationonbelongsto
+Rails/RedundantPresenceValidationOnBelongsTo:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsschemacomment
+Rails/SchemaComment:
+  Enabled: false

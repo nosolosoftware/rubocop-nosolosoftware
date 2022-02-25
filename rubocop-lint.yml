@@ -95,3 +95,7 @@ Lint/IncompatibleIoSelectWithFiberScheduler:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintrequirerelativeselfpath
 Lint/RequireRelativeSelfPath:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintuselessruby2keywords
+Lint/UselessRuby2Keywords:
+  Enabled: true
