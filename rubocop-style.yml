@@ -117,10 +117,6 @@ Style/SelectByRegexp:
 Style/OpenStructUse:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecrequiremfa
-Gemspec/RequireMFA:
-  Enabled: true
-
 # https://docs.rubocop.org/rubocop/cops_style.html#stylemaptohash
 Style/MapToHash:
   Enabled: true
