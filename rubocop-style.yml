@@ -112,3 +112,19 @@ Style/NumberedParametersLimit:
 # https://docs.rubocop.org/rubocop/cops_style.html#styleselectbyregexp
 Style/SelectByRegexp:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleopenstructuse
+Style/OpenStructUse:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylemaptohash
+Style/MapToHash:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylefileread
+Style/FileRead:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylefilewrite
+Style/FileWrite:
+  Enabled: true

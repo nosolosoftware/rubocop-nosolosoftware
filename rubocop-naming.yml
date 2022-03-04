@@ -9,3 +9,8 @@ Naming/VariableNumber:
 # https://docs.rubocop.org/rubocop/cops_naming.html#naminginclusivelanguage
 Naming/InclusiveLanguage:
   Enabled: false
+
+# https://docs.rubocop.org/rubocop/cops_naming.html#namingblockforwarding
+Naming/BlockForwarding:
+  Enabled: true
+  EnforcedStyle: explicit

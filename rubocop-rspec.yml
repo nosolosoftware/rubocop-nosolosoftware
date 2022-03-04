@@ -61,3 +61,7 @@ RSpec/ExcessiveDocstringSpacing:
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecsubjectdeclaration
 RSpec/SubjectDeclaration:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotsyntaxmethods
+RSpec/FactoryBot/SyntaxMethods:
+  Enabled: true

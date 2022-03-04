@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.13.0 - 2022-02-25
+- Added new rules
+  - rubocop
+    - Lint/UselessRuby2Keywords (1.23)
+    - Style/OpenStructUse (1.23)
+    - Gemspec/RequireMFA (1.23)
+    - Naming/BlockForwarding (1.24)
+    - Style/MapToHash (1.24)
+    - Style/FileRead (1.24)
+    - Style/FileWrite (1.24)
+  - rubocop-rails
+    - Rails/RootJoinChain (2.13)
+    - Rails/DurationArithmetic (2.13)
+    - Rails/RedundantPresenceValidationOnBelongsTo (2.13)
+    - Rails/SchemaComment (2.13)
+  - rubocop-rspec
+    - RSpec/FactoryBot/SyntaxMethods (2.7.0)
+
 ## 1.12.1 - 2021-10-13
 - No new changes. Previous gem was yanked.
 
