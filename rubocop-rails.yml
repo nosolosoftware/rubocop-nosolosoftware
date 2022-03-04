@@ -165,3 +165,7 @@ Rails/RedundantPresenceValidationOnBelongsTo:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsschemacomment
 Rails/SchemaComment:
   Enabled: false
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railscompactblank
+Rails/CompactBlank:
+  Enabled: true
