@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The following rules have been added:
 
+## 1.14.0 - 2022-03-04
+- Added new rules
+  - rubocop-rails
+    - Rails/CompactBlank (2.13)
+  - rubocop-performance
+    - Performance/StringIdentifierArgument (1.13)
+  - rubocop-rspec
+    - RSpec/BeEq (2.9)
+    - RSpec/BeNil (2.9)
+
 ## 1.13.0 - 2022-02-25
 - Added new rules
   - rubocop
