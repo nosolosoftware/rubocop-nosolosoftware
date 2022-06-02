@@ -128,3 +128,27 @@ Style/FileRead:
 # https://docs.rubocop.org/rubocop/cops_style.html#stylefilewrite
 Style/FileWrite:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylenestedfiledirname
+Style/NestedFileDirname:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantinitialize
+Style/RedundantInitialize:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleobjectthen
+Style/ObjectThen:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylefetchenvvar
+Style/FetchEnvVar:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleenvhome
+Style/EnvHome:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylemapcompactwithconditionalblock
+Style/MapCompactWithConditionalBlock:
+  Enabled: true

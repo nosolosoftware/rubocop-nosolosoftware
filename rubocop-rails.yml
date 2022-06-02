@@ -169,3 +169,39 @@ Rails/SchemaComment:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railscompactblank
 Rails/CompactBlank:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsi18nlocaletexts
+Rails/I18nLocaleTexts:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsi18nlazylookup
+Rails/I18nLazyLookup:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsmigrationclassname
+Rails/MigrationClassName:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsduplicateassociation
+Rails/DuplicateAssociation:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsduplicatescope
+Rails/DuplicateScope:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstransactionexitstatement
+Rails/TransactionExitStatement:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsdeprecatedactivemodelerrorsmethods
+Rails/DeprecatedActiveModelErrorsMethods:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsactioncontrollertestcase
+Rails/ActionControllerTestCase:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstablenameassignment
+Rails/TableNameAssignment:
+  Enabled: false

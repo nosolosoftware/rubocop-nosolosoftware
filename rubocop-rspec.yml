@@ -73,3 +73,11 @@ RSpec/BeEq:
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecbenil
 RSpec/BeNil:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecverifieddoublereference
+RSpec/VerifiedDoubleReference:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecchangebyzero
+RSpec/ChangeByZero:
+  Enabled: true

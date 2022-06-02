@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   ## INFORMATION
   #
   s.name = 'rubocop-nosolosoftware'
-  s.version = '1.14.0'
+  s.version = '1.15.0'
   s.summary = 'Default Rubocop configuration used in NoSoloSoftware developments'
   s.description = nil
   s.homepage = 'https://github.com/nosolosoftware/rubocop-nosolosoftware'
@@ -47,10 +47,10 @@ Gem::Specification.new do |s|
   #
   ## DEPENDENCIES
   #
-  s.add_dependency 'rubocop', '~> 1.25'
+  s.add_dependency 'rubocop', '~> 1.30'
   s.add_dependency 'rubocop-faker', '~> 1.1'
-  s.add_dependency 'rubocop-performance', '~> 1.13.2'
-  s.add_dependency 'rubocop-rails', '~> 2.13.2'
-  s.add_dependency 'rubocop-rake', '~> 0.5'
-  s.add_dependency 'rubocop-rspec', '~> 2.9'
+  s.add_dependency 'rubocop-performance', '~> 1.14.0'
+  s.add_dependency 'rubocop-rails', '~> 2.14.2'
+  s.add_dependency 'rubocop-rake', '~> 0.6'
+  s.add_dependency 'rubocop-rspec', '~> 2.11.1'
 end
