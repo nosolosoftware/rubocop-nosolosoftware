@@ -5,3 +5,7 @@
 # https://docs.rubocop.org/rubocop/cops_security.html#securityiomethods
 Security/IoMethods:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_security.html#securitycompoundhash
+Security/CompoundHash:
+  Enabled: true

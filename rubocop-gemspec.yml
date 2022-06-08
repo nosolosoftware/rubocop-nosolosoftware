@@ -9,3 +9,11 @@ Gemspec/DateAssignment:
 # https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecrequiremfa
 Gemspec/RequireMFA:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecdependencyversion
+Gemspec/DependencyVersion:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecdeprecatedattributeassignment
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: true

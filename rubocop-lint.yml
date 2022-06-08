@@ -99,3 +99,7 @@ Lint/RequireRelativeSelfPath:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintuselessruby2keywords
 Lint/UselessRuby2Keywords:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintrefinementimportmethods
+Lint/RefinementImportMethods:
+  Enabled: true

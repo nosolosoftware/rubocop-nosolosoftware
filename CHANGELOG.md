@@ -6,6 +6,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 The following rules have been added:
+## 1.15.0 - 2022-06-02
+  - Added new rules
+    - rubocop
+      - Gemspec/DependencyVersion (1.29)
+      - Gemspec/DeprecatedAttributeAssignment (1.30)
+      - Lint/RefinementImportMethods (1.27)
+      - Security/CompoundHash (1.28)
+      - Style/EnvHome (1.29)
+      - Style/FetchEnvVar (1.28)
+      - Style/MapCompactWithConditionalBlock (1.30)
+      - Style/NestedFileDirname (1.26)
+      - Style/ObjectThen (1.28)
+      - Style/RedundantInitialize (1.27)
+    - rubocop-rails
+      - Rails/I18nLocaleTexts (2.14)
+      - Rails/I18nLazyLookup (2.14)
+      - Rails/MigrationClassName (2.14)
+      - Rails/DuplicateAssociation (2.14)
+      - Rails/DuplicateScope (2.14)
+      - Rails/TransactionExitStatement (2.14)
+      - Rails/DeprecatedActiveModelErrorsMethods (2.14)
+      - Rails/ActionControllerTestCase (2.14)
+      - Rails/TableNameAssignment (2.14)
+    - rubocop-rspec
+      - RSpec/ChangeByZero (2.11.0)
+      - RSpec/VerifiedDoubleReference (2.10.0)
 
 ## 1.14.0 - 2022-03-04
 - Added new rules
