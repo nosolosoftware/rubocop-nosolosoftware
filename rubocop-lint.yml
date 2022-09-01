@@ -103,3 +103,15 @@ Lint/UselessRuby2Keywords:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintrefinementimportmethods
 Lint/RefinementImportMethods:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintnonatomicfileoperation
+Lint/NonAtomicFileOperation:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintconstantoverwritteninrescue
+Lint/ConstantOverwrittenInRescue:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintrequirerangeparentheses
+Lint/RequireRangeParentheses:
+  Enabled: true

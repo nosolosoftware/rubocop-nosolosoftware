@@ -81,3 +81,11 @@ RSpec/VerifiedDoubleReference:
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecchangebyzero
 RSpec/ChangeByZero:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaraspecificmatcher
+RSpec/Capybara/SpecificMatcher:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailshavehttpstatus
+RSpec/Rails/HaveHttpStatus:
+  Enabled: true
