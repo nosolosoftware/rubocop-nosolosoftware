@@ -205,3 +205,19 @@ Rails/ActionControllerTestCase:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstablenameassignment
 Rails/TableNameAssignment:
   Enabled: false
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsdotseparatedkeys
+Rails/DotSeparatedKeys:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsstripheredoc
+Rails/StripHeredoc:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstoformatteds
+Rails/ToFormattedS:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsrootpublicpath
+Rails/RootPublicPath:
+  Enabled: true

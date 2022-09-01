@@ -152,3 +152,12 @@ Style/EnvHome:
 # https://docs.rubocop.org/rubocop/cops_style.html#stylemapcompactwithconditionalblock
 Style/MapCompactWithConditionalBlock:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleemptyheredoc
+Style/EmptyHeredoc:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylemagiccommentformat
+Style/MagicCommentFormat:
+  Enabled: true
+  EnforcedStyle: snake_case

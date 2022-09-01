@@ -6,6 +6,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 The following rules have been added:
+## 1.16.0 - 2022-09-01
+  - Added new rules
+    - rubocop
+      - Lint/NonAtomicFileOperation (1.31.0)
+      - Layout/LineContinuationLeadingSpace (1.31.0)
+      - Layout/LineContinuationSpacing (1.31.0)
+      - Style/EmptyHeredoc (1.32.0)
+      - Layout/MultilineMethodParameterLineBreaks (1.32.0)
+      - Lint/RequireRangeParentheses (1.32.0)
+      - Style/MagicCommentFormat (1.35.0)
+    - rubocop-rails
+      - Rails/DotSeparatedKeys (1.15.0)
+      - Rails/StripHeredoc (1.15.0)
+      - Rails/ToFormattedS (1.15.0)
+      - Rails/RootPublicPath (1.15.0)
+    - rubocop-rspec
+      - RSpec/Capybara/SpecificMatcher (2.12.0)
+      - RSpec/Rails/HaveHttpStatus (2.12.0)
+  - Removed rules
+    - rubocop
+      - Gemspec/DateAssignment
 ## 1.15.0 - 2022-06-02
   - Added new rules
     - rubocop

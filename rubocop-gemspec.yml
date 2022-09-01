@@ -2,10 +2,6 @@
 ## https://rubocop.readthedocs.io/en/latest/cops_gemspec/
 #
 
-# https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecdateassignment
-Gemspec/DateAssignment:
-  Enabled: true
-
 # https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecrequiremfa
 Gemspec/RequireMFA:
   Enabled: true
@@ -17,3 +13,4 @@ Gemspec/DependencyVersion:
 # https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecdeprecatedattributeassignment
 Gemspec/DeprecatedAttributeAssignment:
   Enabled: true
+

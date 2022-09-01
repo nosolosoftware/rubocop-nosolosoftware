@@ -26,3 +26,15 @@ Layout/SpaceBeforeBrackets:
 Layout/LineEndStringConcatenationIndentation:
   Enabled: true
   EnforcedStyle: aligned
+
+# https://docs.rubocop.org/rubocop/cops_layout.html#layoutlinecontinuationleadingspace
+Layout/LineContinuationLeadingSpace:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_layout.html#layoutlinecontinuationspacing
+Layout/LineContinuationSpacing:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_layout.html#layoutmultilinemethodparameterlinebreaks
+Layout/MultilineMethodParameterLineBreaks:
+  Enabled: true
