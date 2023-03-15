@@ -82,10 +82,63 @@ RSpec/VerifiedDoubleReference:
 RSpec/ChangeByZero:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaraspecificmatcher
-RSpec/Capybara/SpecificMatcher:
-  Enabled: true
-
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailshavehttpstatus
 RSpec/Rails/HaveHttpStatus:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecnoexpectationexample
+RSpec/NoExpectationExample:
+  Enabled: false
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecclasscheck
+RSpec/ClassCheck:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotconsistentparenthesesstyle
+RSpec/FactoryBot/ConsistentParenthesesStyle:
+  Enabled: true
+  EnforcedStyle: "require_parentheses"
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailsinferredspectype
+RSpec/Rails/InferredSpecType:
+  Enabled: false
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecsortmetadata
+RSpec/SortMetadata:
+  Enabled: false
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotfactorynamestyle
+RSpec/FactoryBot/FactoryNameStyle:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecduplicatedmetadata
+RSpec/DuplicatedMetadata:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecpendingwithoutreason
+RSpec/PendingWithoutReason:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailsminitestassertions
+RSpec/Rails/MinitestAssertions:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecredundantaround
+RSpec/RedundantAround:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailstravelaround
+RSpec/Rails/TravelAround:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspeccontainexactly
+RSpec/ContainExactly:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecmatcharray
+RSpec/MatchArray:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecskipblockinsideexample
+RSpec/SkipBlockInsideExample:
   Enabled: true

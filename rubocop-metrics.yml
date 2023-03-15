@@ -29,3 +29,8 @@ Metrics/BlockLength:
     - "**/config/routes.rb"
     - "**/config/routes/**/*.rb"
     - "**/lib/tasks/auto_annotate_models.rake"
+
+# https://docs.rubocop.org/rubocop/cops_metrics.html#metricscollectionliterallength
+Metrics/CollectionLiteralLength:
+  Enabled: true
+  LengthThreshold: 250

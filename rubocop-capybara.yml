@@ -1,0 +1,26 @@
+#
+## https://github.com/rubocop/rubocop-capybara/
+#
+
+require: rubocop-capybara
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaraspecificmatcher
+Capybara/SpecificMatcher:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaraspecificfinders
+Capybara/SpecificFinders:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaranegationmatcher
+Capybara/NegationMatcher:
+  Enabled: true
+  EnforcedStyle: have_no
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaraspecificactions
+Capybara/SpecificActions:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaramatchstyle
+Capybara/MatchStyle:
+  Enabled: true
