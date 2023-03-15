@@ -14,3 +14,6 @@ Gemspec/DependencyVersion:
 Gemspec/DeprecatedAttributeAssignment:
   Enabled: true
 
+# https://docs.rubocop.org/rubocop/cops_gemspec.html#gemspecdevelopmentdependencies
+Gemspec/DevelopmentDependencies:
+  Enabled: true

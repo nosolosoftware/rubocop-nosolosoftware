@@ -75,3 +75,7 @@ Performance/RedundantSplitRegexpArgument:
 # https://docs.rubocop.org/rubocop-performance/cops_performance.html#performancestringidentifierargument
 Performance/StringIdentifierArgument:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html#performanceconcurrentmonotonictime
+Performance/ConcurrentMonotonicTime:
+  Enabled: true

@@ -1,12 +1,17 @@
 inherit_from:
   - rubocop-all.yml
   - rubocop-bundler.yml
+  - rubocop-capybara.yml
+  - rubocop-faker.yml
   - rubocop-gemspec.yml
   - rubocop-layout.yml
   - rubocop-lint.yml
   - rubocop-metrics.yml
   - rubocop-naming.yml
   - rubocop-performance.yml
+  - rubocop-rails.yml
+  - rubocop-rake.yml
+  - rubocop-rspec.yml
   - rubocop-security.yml
   - rubocop-style.yml
 

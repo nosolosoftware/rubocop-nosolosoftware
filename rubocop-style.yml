@@ -161,3 +161,67 @@ Style/EmptyHeredoc:
 Style/MagicCommentFormat:
   Enabled: true
   EnforcedStyle: snake_case
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleoperatormethodcall
+Style/OperatorMethodCall:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantstringescape
+Style/RedundantStringEscape:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundanteach
+Style/RedundantEach:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantconstantbase
+Style/RedundantConstantBase:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylerequireorder
+Style/RequireOrder:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylearrayintersect
+Style/ArrayIntersect:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantdoublesplathashbraces
+Style/RedundantDoubleSplatHashBraces:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleconcatarrayliterals
+Style/ConcatArrayLiterals:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylemaptoset
+Style/MapToSet:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleminmaxcomparison
+Style/MinMaxComparison:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleyodaexpression
+Style/YodaExpression:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleinvertibleunlesscondition
+Style/InvertibleUnlessCondition:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylecomparableclamp
+Style/ComparableClamp:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantheredocdelimiterquotes
+Style/RedundantHeredocDelimiterQuotes:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styledirempty
+Style/DirEmpty:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylefileempty
+Style/FileEmpty:
+  Enabled: true

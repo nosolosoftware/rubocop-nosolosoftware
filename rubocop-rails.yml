@@ -58,6 +58,10 @@ Rails/ActiveRecordCallbacksOrder:
 Rails/FindById:
   Enabled: true
 
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsfindeach
+Rails/FindEach:
+  Enabled: true
+
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsinquiry
 Rails/Inquiry:
   Enabled: true
@@ -220,4 +224,48 @@ Rails/ToFormattedS:
 
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsrootpublicpath
 Rails/RootPublicPath:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsfreezetime
+Rails/FreezeTime:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswheremissing
+Rails/WhereMissing:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsrootpathnamemethods
+Rails/RootPathnameMethods:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstoplevelhashwithindifferentaccess
+Rails/TopLevelHashWithIndifferentAccess:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsactioncontrollerflashbeforerender
+Rails/ActionControllerFlashBeforeRender:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsactivesupportonload
+Rails/ActiveSupportOnLoad:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railstoswithargument
+Rails/ToSWithArgument:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsactionorder
+Rails/ActionOrder:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railswherenotwithmultipleconditions
+Rails/WhereNotWithMultipleConditions:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsignoredcolumnsassignment
+Rails/IgnoredColumnsAssignment:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsresponseparsedbody
+Rails/ResponseParsedBody:
   Enabled: true

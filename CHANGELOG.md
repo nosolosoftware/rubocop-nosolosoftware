@@ -6,6 +6,65 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 The following rules have been added:
+## 1.17.0 - 2023-03-14
+  - Added rubocop-capybara as deprecation rules in rubocop-rspec 2.18.0 [link](https://github.com/rubocop/rubocop-rspec/releases/tag/v2.18.0)
+  - Added new rules
+    - rubocop
+      - Lint/DuplicateMagicComment (1.37.0)
+      - Style/OperatorMethodCall (1.37.0)
+      - Style/RedundantStringEscape (1.37.0)
+      - Style/RedundantEach (1.38.0)
+      - Style/RedundantConstantBase (1.40.0)
+      - Style/RequireOrder (1.40.0)
+      - Style/ArrayIntersect (1.40.0)
+      - Style/RedundantDoubleSplatHashBraces (1.41.0)
+      - Style/ConcatArrayLiterals (1.41.0)
+      - Style/MapToSet (1.42.0)
+      - Style/MinMaxComparison (1.42.0)
+      - Style/YodaExpression (1.42.0)
+      - Lint/UselessRescue (1.43.0)
+      - Style/InvertibleUnlessCondition (1.44.0)
+      - Style/ComparableClamp (1.44.0)
+      - Gemspec/DevelopmentDependencies (1.44.0)
+      - Style/RedundantHeredocDelimiterQuotes (1.45.0)
+      - Metrics/CollectionLiteralLength (1.47.0)
+      - Style/DirEmpty (1.48.0)
+      - Style/FileEmpty (1.48.0)
+    - rubocop-rails
+      - Rails/FreezeTime (2.16.0)
+      - Rails/WhereMissing (2.16.0)
+      - Rails/RootPathnameMethods (2.16.0)
+      - Rails/TopLevelHashWithIndifferentAccess (2.16.0)
+      - Rails/ActionControllerFlashBeforeRender (2.16.0)
+      - Rails/ActiveSupportOnLoad (2.16.0)
+      - Rails/ToSWithArgument (2.16.0)
+      - Rails/ActionOrder (2.17.0)
+      - Rails/WhereNotWithMultipleConditions (2.17.0)
+      - Rails/IgnoredColumnsAssignment (2.17.0)
+      - Rails/ResponseParsedBody (2.18.0)
+    - rubocop-performance:
+      - Performance/ConcurrentMonotonicTime (1.12.0)
+    - rubocop-rspec
+      - RSpec/NoExpectationExample (2.13.0)
+      - RSpec/ClassCheck (2.13.0)
+      - RSpec/FactoryBot/ConsistentParenthesesStyle (2.14.0)
+      - RSpec/Rails/InferredSpecType (2.14.0)
+      - RSpec/SortMetadata (2.14.0)
+      - RSpec/FactoryBot/FactoryNameStyle (2.16.0)
+      - RSpec/DuplicatedMetadata (2.16.0)
+      - RSpec/PendingWithoutReason (2.16.0)
+      - RSpec/Rails/MinitestAssertions (2.17.0)
+      - RSpec/RedundantAround (2.19.0)
+      - RSpec/Rails/TravelAround (2.19.0)
+      - RSpec/ContainExactly (2.19.0)
+      - RSpec/MatchArray (2.19.0)
+      - RSpec/SkipBlockInsideExample (2.19.0)
+    - rubocop-capybara
+      - Capybara/SpecificFinders (2.17.1)
+      - Capybara/NegationMatcher (2.17.1)
+      - Capybara/SpecificActions (2.17.1)
+      - Capybara/MatchStyle (2.17.1)
+
 ## 1.16.0 - 2022-09-01
   - Added new rules
     - rubocop
