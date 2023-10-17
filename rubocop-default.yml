@@ -2,6 +2,7 @@ inherit_from:
   - rubocop-all.yml
   - rubocop-bundler.yml
   - rubocop-capybara.yml
+  - rubocop-factory-bot.yml
   - rubocop-faker.yml
   - rubocop-gemspec.yml
   - rubocop-layout.yml

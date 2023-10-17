@@ -269,3 +269,23 @@ Rails/IgnoredColumnsAssignment:
 # https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsresponseparsedbody
 Rails/ResponseParsedBody:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsthreestatebooleancolumn
+Rails/ThreeStateBooleanColumn:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsselectmap
+Rails/SelectMap:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsdangerouscolumnnames
+Rails/DangerousColumnNames:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsunusedrendercontent
+Rails/UnusedRenderContent:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html#railsredundantactiverecordallmethod
+Rails/RedundantActiveRecordAllMethod:
+  Enabled: true

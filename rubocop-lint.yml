@@ -123,3 +123,15 @@ Lint/DuplicateMagicComment:
 # https://docs.rubocop.org/rubocop/cops_lint.html#lintuselessrescue
 Lint/UselessRescue:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintduplicatematchpattern
+Lint/DuplicateMatchPattern:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintmixedcaserange
+Lint/MixedCaseRange:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_lint.html#lintredundantregexpquantifiers
+Lint/RedundantRegexpQuantifiers:
+  Enabled: true
