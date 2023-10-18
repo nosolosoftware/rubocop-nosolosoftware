@@ -225,3 +225,47 @@ Style/DirEmpty:
 # https://docs.rubocop.org/rubocop/cops_style.html#stylefileempty
 Style/FileEmpty:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantlinecontinuation
+Style/RedundantLineContinuation:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styledatainheritance
+Style/DataInheritance:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleexactregexpmatch
+Style/ExactRegexpMatch:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantarrayconstructor
+Style/RedundantArrayConstructor:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantregexpconstructor
+Style/RedundantRegexpConstructor:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantfilterchain
+Style/RedundantFilterChain:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantcurrentdirectoryinpath
+Style/RedundantCurrentDirectoryInPath:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleredundantregexpargument
+Style/RedundantRegexpArgument:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylereturnnilinpredicatemethoddefinition
+Style/ReturnNilInPredicateMethodDefinition:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#styleyamlfileread
+Style/YAMLFileRead:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop/cops_style.html#stylesinglelinedoendblock
+Style/SingleLineDoEndBlock:
+  Enabled: true

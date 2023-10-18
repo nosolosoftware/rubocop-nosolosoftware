@@ -1,0 +1,34 @@
+#
+## https://www.rubydoc.info/gems/rubocop-factory_bot/
+#
+
+require: rubocop-factory_bot
+
+# https://docs.rubocop.org/rubocop-factory_bot/cops_factorybot.html#factorybotsyntaxmethods
+FactoryBot/SyntaxMethods:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotconsistentparenthesesstyle
+FactoryBot/ConsistentParenthesesStyle:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotfactorynamestyle
+FactoryBot/FactoryNameStyle:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-factory_bot/cops_factorybot.html#factorybotassociationstyle
+FactoryBot/AssociationStyle:
+  Enabled: true
+  EnforcedStyle: explicit
+
+# https://docs.rubocop.org/rubocop-factory_bot/cops_factorybot.html#factorybotfactoryassociationwithstrategy
+FactoryBot/FactoryAssociationWithStrategy:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-factory_bot/cops_factorybot.html#factorybotidsequence
+FactoryBot/IdSequence:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-factory_bot/cops_factorybot.html#factorybotredundantfactoryoption
+FactoryBot/RedundantFactoryOption:
+  Enabled: true

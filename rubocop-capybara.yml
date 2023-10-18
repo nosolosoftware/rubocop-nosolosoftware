@@ -24,3 +24,15 @@ Capybara/SpecificActions:
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec_capybara.html#rspeccapybaramatchstyle
 Capybara/MatchStyle:
   Enabled: true
+
+# https://docs.rubocop.org/rubocop-capybara/cops_capybara_rspec.html#capybararspecpredicatematcher
+Capybara/RSpec/PredicateMatcher:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-capybara/cops_capybara_rspec.html#capybararspechaveselector
+Capybara/RSpec/HaveSelector:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-capybara/cops_capybara.html#capybaraclicklinkorbuttonstyle
+Capybara/ClickLinkOrButtonStyle:
+  Enabled: true

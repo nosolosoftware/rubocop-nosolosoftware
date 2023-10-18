@@ -1,3 +1,7 @@
 #
 ## https://rubocop.readthedocs.io/en/latest/cops_bundler/
 #
+
+# https://docs.rubocop.org/rubocop/cops_bundler.html#bundlerduplicatedgroup
+Bundler/DuplicatedGroup:
+  Enabled: true

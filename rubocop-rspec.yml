@@ -62,10 +62,6 @@ RSpec/ExcessiveDocstringSpacing:
 RSpec/SubjectDeclaration:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotsyntaxmethods
-RSpec/FactoryBot/SyntaxMethods:
-  Enabled: true
-
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecbeeq
 RSpec/BeEq:
   Enabled: true
@@ -94,11 +90,6 @@ RSpec/NoExpectationExample:
 RSpec/ClassCheck:
   Enabled: true
 
-# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotconsistentparenthesesstyle
-RSpec/FactoryBot/ConsistentParenthesesStyle:
-  Enabled: true
-  EnforcedStyle: "require_parentheses"
-
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailsinferredspectype
 RSpec/Rails/InferredSpecType:
   Enabled: false
@@ -106,10 +97,6 @@ RSpec/Rails/InferredSpecType:
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecsortmetadata
 RSpec/SortMetadata:
   Enabled: false
-
-# https://docs.rubocop.org/rubocop-rspec/cops_rspec_factorybot.html#rspecfactorybotfactorynamestyle
-RSpec/FactoryBot/FactoryNameStyle:
-  Enabled: true
 
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecduplicatedmetadata
 RSpec/DuplicatedMetadata:
@@ -141,4 +128,41 @@ RSpec/MatchArray:
 
 # https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecskipblockinsideexample
 RSpec/SkipBlockInsideExample:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecindexedlet
+RSpec/IndexedLet:
+  Enabled: true
+  Max: 3
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecbeempty
+RSpec/BeEmpty:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailsnegationbevalid
+RSpec/Rails/NegationBeValid:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecreceivemessages
+RSpec/ReceiveMessages:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecemptymetadata
+RSpec/EmptyMetadata:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspeceq
+RSpec/Eq:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecmetadatastyle
+RSpec/MetadataStyle:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecspecfilepathformat
+RSpec/SpecFilePathFormat:
+  Enabled: true
+
+# https://docs.rubocop.org/rubocop-rspec/cops_rspec.html#rspecspecfilepathsuffix
+RSpec/SpecFilePathSuffix:
   Enabled: true
